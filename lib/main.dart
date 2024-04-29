@@ -6,6 +6,7 @@ import 'package:flutter_notification_channel/notification_importance.dart';
 // import 'package:flutter/services.dart';
 // import 'package:ss_chat/email/email.dart';
 import 'package:ss_chat/firebase_options.dart';
+import 'package:ss_chat/screen/auth/play_audio.dart';
 // import 'package:ss_chat/google_signin/home_google.dart';
 import 'package:ss_chat/screen/auth/splash_screen.dart';
 // import 'package:ss_chat/screen/auth/login_screen.dart';
@@ -49,6 +50,7 @@ class MyApp extends StatelessWidget {
         elevation: 10,
         titleTextStyle: TextStyle(fontSize: 20,color: Colors.black,fontWeight: FontWeight.normal),),
         ),
+        // home: PlayAudioScreen(),
          home: SplashView(),
       );
   }
